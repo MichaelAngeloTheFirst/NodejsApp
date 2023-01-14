@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
-app.listen(8080, () => {
-    console.log('server listens on PORT: 8080')
+app.listen(443, () => {
+    console.log('server listens on PORT: 443')
 })
 
